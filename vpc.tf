@@ -1,8 +1,8 @@
 resource "aws_vpc" "default" {
-    cidr_block = "${var.vpc_cidr}"
+    cidr_block = "10.1.0.0/16"
 
     tags  = {
-        Name = "${var.vpc_name}"
+        Name = "testing-vpc"
     }
 
 }
