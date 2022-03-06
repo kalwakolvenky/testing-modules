@@ -4,7 +4,7 @@ module "Prod" {
    vpc_cidr = "10.10.0.0/16" 
    vpc_name = "ProdVPC" 
    IGW_name = "ProdVPC-IGW" 
-   key_name = "LaptopKey" 
+   key_name = "Laptop" 
    public_subnet1_cidr = "10.10.1.0/24" 
    public_subnet2_cidr = "10.10.2.0/24" 
    public_subnet3_cidr = "10.10.3.0/24" 
