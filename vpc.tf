@@ -18,15 +18,15 @@ variable "public_subnet3_cidr" {}
 variable "public_subnet1_name" {}
 variable "public_subnet2_name" {}
 variable "public_subnet3_name" {}
-variable Main_Routing_Table {}
+variable "Main_Routing_Table" {}
 variable "azs" {
   description = "Run the EC2 Instances in these Availability Zones"
-  type = "list"
+  #type = "list"
   default = ["us-east-1a", "us-east-1b", "us-east-1c"]
 }
 variable "environment" { default = "dev" }
 variable "instance_type" {
-  type = "map"
+  #type = "map"
   default = {
     dev = "t2.nano"
     test = "t2.micro"
