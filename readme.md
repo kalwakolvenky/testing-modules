@@ -1,5 +1,5 @@
 module "Prod" { 
-   source = "github.com/mavrick202/testingmodules" 
+   source = "" 
    aws_region = "us-east-1" 
    vpc_cidr = "10.10.0.0/16" 
    vpc_name = "ProdVPC" 
